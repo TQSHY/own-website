@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=JetBrains+Mono&display=swap');
+ 
+ *
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+ }
+
+body
+{
+   font-family: 'Poppins', sans-serif;
+   background: linear-gradient(to right, #539933, #00a2ff);
+}
+
+header
+ {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+ }
+
+ .nav
+ {
+    width: 280px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    border: solid 3px #666666;
+    padding: 20px;
+ }
+
+ .nav ul
+ {
+    list-style: none;
+    padding: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    text-transform: uppercase;
+    text-align: center;
+    height: 140px;
+    width: 280;
+ }
+
+ .nav ul li
+ {
+   height: 23px;
+ }
+
+
+ .title a
+ {
+    font-size: 20px;
+    font-family: 'Fredoka One';
+    text-decoration: none;
+    color: black;
+    
+ }
+
+
+
+ .title a:hover
+ {
+   text-decoration: wavy;
+   color: rgba(0, 0, 0, 0.5);
+   font-size: 27px;
+ }
+
+ .icon
+ {
+    font-size: 25px;
+ }
+
+.x
+{
+   font-size: xx-large;
+   color: black;
+   display: grid;
+}
+
+.dot {
+   left: 25px;
+   top: 25px;
+   height: 45px;
+   width: 45px;
+   background: rgba(255, 255, 255, 0.5);
+   border-radius: 50%;
+   border: solid 3px #666666;
+   display: inline-block;
+   position: relative;
+ }
+
+.icon
+{
+   position: relative;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   font-size: 40px;
+}
+
+ .x
+ {
+   position: relative;
+   color: black;
+   border: solid 3px #666666;
+   border-radius: 50%;
+ }
+
+ @media (max-width: 768px)
+ {
+   body
+   {
+      color: purple;
+      
+   }
+
+  
+ }
