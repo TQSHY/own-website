@@ -143,8 +143,8 @@ body
 }
 
 .dot {
-  left: 25px;
-  top: 25px;
+  left: 50px;
+  bottom: 280px;
   height: 45px;
   width: 45px;
   background: rgba(255, 255, 255, 0.5);
@@ -152,8 +152,6 @@ body
   border: solid 3px #666666;
   display: inline-block;
   position: relative;
-  top: -350px;
-  left: -360px;
 }
 
 .icon
@@ -163,4 +161,4 @@ body
   justify-content: center;
   display: flex;
   font-size: 40px;
-}
+} 

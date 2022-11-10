@@ -12,6 +12,7 @@ body
 {
    font-family: 'Poppins', sans-serif;
    background-image: url('/material/a-nice-sun-set-wallpaper.jpg');
+   background-color: #261935;
    background-size: cover;
    background-repeat: no-repeat;
 }
@@ -118,5 +119,6 @@ header
       background-image: url("https://www.itl.cat/pngfile/big/123-1235712_hd-wallpaper-4k-minimalist-wallpaper-phone.jpg");  
       background-size:     cover;
       background-repeat:   no-repeat;
+      background-color: #210011;
    }
  }
